@@ -8,7 +8,7 @@ public class ChatroomTest {
 	@Test
 	public void test() {
 		Chatroom chatroom = new Chatroom();
-		Assert.assertEquals("The chatroom index controler should return the index view.", "index", chatroom.index());
+		Assert.assertEquals("The chatroom index controler should return the index view.", "index", chatroom.index().getViewName());
 	}
 
 }

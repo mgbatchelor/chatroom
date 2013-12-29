@@ -20,4 +20,7 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
+	<bean id="service"
+		class="com.mgbatchelor.nb.chatroom.services.ChatroomServiceImpl"></bean>
+
 </beans>
