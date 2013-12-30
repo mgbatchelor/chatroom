@@ -3,7 +3,7 @@
 <jsp:include page="header.jsp" />
 <div class="container">
 	<div>
-		<h2>Nation Builder Chatroom</h2>
+		<h2>NationBuilder Chatroom</h2>
 		<div class="row">
 			<div class="col-lg-3">
 				<div class="panel panel-default">

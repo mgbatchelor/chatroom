@@ -5,15 +5,15 @@
 <div class="container">
 	<!-- Main component for a primary marketing message or call to action -->
 	<div class="jumbotron">
-		<h1>Nation Builder Programming Challenge</h1>
-		<p>This is my implementation of the chat room interface. The user
-			has the ability to view the events that occurred in the chat room
+		<h1>NationBuilder Programming Challenge</h1>
+		<p>This is my implementation of the chatroom interface. The user
+			has the ability to view the events that occurred in the chatroom
 			ordered by timestamp. The user also has the ability to view the event
 			summary that groups the events by 'Minute of Hour', 'Hour of Day', or
 			'Full Day Summary'</p>
 		<p>
 			<a href='<c:url value="/join/nb"/>' class="btn btn-lg btn-primary">Enter
-				Chatroom</a>
+				chatroom</a>
 		</p>
 	</div>
 	<div class="row">
@@ -58,7 +58,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 </div>
 <jsp:include page="footer.jsp" />

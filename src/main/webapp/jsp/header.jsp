@@ -18,7 +18,7 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a href='<c:url value="/"/>' class="navbar-brand">Nation Builder Chatroom</a>
+				<a href='<c:url value="/"/>' class="navbar-brand">NationBuilder Chatroom</a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
