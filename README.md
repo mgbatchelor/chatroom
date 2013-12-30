@@ -8,8 +8,10 @@ The code follows a simple design.  Each chat event extends the same abstract cla
 
 The view depends on the events to provide all of the formatting for each of the events.
 
+All of the data is retrieved from the database through SQL queries, this is for both the history view, and the grouped summary views.
+
 Test Cases
-——--------
+------------
 There were a few parts of the implementation that needed test cases.
 
 ### ChatEventFactoryTest
@@ -29,22 +31,22 @@ Build/Test/Run Design
 ------------
 This application was written with Java and Maven.  To build and test the code execute
 
-> mvm clean install
+> mvn clean install
 
 This will download the dependencies from the web and begin the compilation and test phases.
 
 To run the application, an embedded container can be started by executing
 
-> mvm jetty:run
+> mvn jetty:run
 
 This will begin two servlets, the Spring Servlet running the web application (localhost:8080/chatroom/), and the H2 Web access servlet (localhost:8080/chatroom/console).
 
 To access the database open localhost:8080/chatroom/console in a browser, connect to the database with the following configuration:
 
-> Driver Class  : org.h2.Driver
-> JDBC URL      : jdbc:h2:/tmp/chatroom;AUTO_SERVER=TRUE
-> User Name     : sa
-> Password      : <BLANK>
+> Driver Class  : org.h2.Driver<br>
+> JDBC URL      : jdbc:h2:/tmp/chatroom;AUTO_SERVER=TRUE<br>
+> User Name     : sa<br>
+> Password      : 
 
 
 The database will be empty, so the database install script at src/main/resources/db.install.sql can be run on the database and src/main/resources/db.seed.sql.
