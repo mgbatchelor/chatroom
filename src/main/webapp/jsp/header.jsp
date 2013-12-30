@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nation Builder Chatroom</title>
+<title>NationBuilder Chatroom</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href='<c:url value="/assets/css/bootstrap.min.css"/>'
 	rel="stylesheet">
